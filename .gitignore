@@ -21,7 +21,7 @@ web/themes/custom/*/node_modules
 web/themes/custom/*/dist
 
 # Ignore the Recipes
-web/recipes/storm
+web/recipes/storm_cms
 
 # Ignore build artifacts
 bin/*
