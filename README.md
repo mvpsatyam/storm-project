@@ -4,14 +4,9 @@
 
 The repository is used to spin up a new Drupal setup using Storm CMS.
 
-## Installation
-
 ## Setup
 
 Fork the repository from [https://github.com/SpecbeeLabs/storm_cms](https://github.com/SpecbeeLabs/storm-project).
-
-- ``
-- ``
 
 ```
 cd web/recipes
