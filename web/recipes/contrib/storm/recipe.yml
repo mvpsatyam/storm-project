@@ -1,0 +1,56 @@
+name: Storm
+description: A base profile for Drupal 10 with rich features for faster development and head start.
+recipes:
+  - core/recipes/basic_html_format_editor
+  - core/recipes/full_html_format_editor
+  - core/recipes/basic_block_type
+  - core/recipes/core_recommended_admin_theme
+  - core/recipes/core_recommended_front_end_theme
+  - core/recipes/core_recommended_maintenance
+  - core/recipes/core_recommended_performance
+install:
+  - contextual
+  - config
+  - field_ui
+  - help
+  - menu_link_content
+  - navigation
+  - settings_tray
+  - views_ui
+config:
+  actions:
+    block.block.olivero_branding:
+      simple_config_update:
+        status: false
+    block.block.olivero_tools:
+      simple_config_update:
+        status: false
+    block.block.olivero_admin:
+      simple_config_update:
+        status: false
+    block.block.olivero_local_tasks:
+      simple_config_update:
+        status: false
+    block.block.olivero_local_actions:
+      simple_config_update:
+        status: false
+    block.block.claro_tools:
+      simple_config_update:
+        status: false
+    block.block.claro_branding:
+      simple_config_update:
+        status: false
+    block.block.claro_admin:
+      simple_config_update:
+        status: false
+    block.block.claro_local_tasks:
+      simple_config_update:
+        status: false
+    block.block.olivero_page_title:
+      simple_config_update:
+        region: content_above
+        weight: -10
+    block.block.claro_page_title:
+      simple_config_update:
+        region: header
+        weight: -10

@@ -1,0 +1,13 @@
+{
+  "name": "specbee/storm",
+  "description": "Specbee StormCMS",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Malabya",
+      "email": "malabya@specbee.com"
+    }
+  ],
+  "require": {}
+}
