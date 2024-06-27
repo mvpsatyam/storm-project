@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "49faedbcb453aefdaeb2a2f9a9c1591f",
+    "content-hash": "df02a41671376a1f949d3beffbdd319e",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3654,38 +3654,6 @@
                 }
             ],
             "time": "2024-03-02T06:30:58+00:00"
-        },
-        {
-            "name": "specbee/storm",
-            "version": "dev-main",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SpecbeeLabs/storm_cms.git",
-                "reference": "8e9a095831395bc6116b87c85a241eeb67059373"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SpecbeeLabs/storm_cms/zipball/8e9a095831395bc6116b87c85a241eeb67059373",
-                "reference": "8e9a095831395bc6116b87c85a241eeb67059373",
-                "shasum": ""
-            },
-            "default-branch": true,
-            "type": "drupal-recipe",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Malabya",
-                    "email": "malabya@specbee.com"
-                }
-            ],
-            "description": "Specbee StormCMS",
-            "support": {
-                "source": "https://github.com/SpecbeeLabs/storm_cms/tree/main",
-                "issues": "https://github.com/SpecbeeLabs/storm_cms/issues"
-            },
-            "time": "2024-06-27T06:46:37+00:00"
         },
         {
             "name": "symfony/console",

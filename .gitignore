@@ -20,6 +20,9 @@ web/libraries
 web/themes/custom/*/node_modules
 web/themes/custom/*/dist
 
+# Ignore the Recipes
+web/recipes/storm
+
 # Ignore build artifacts
 bin/*
 tmp

@@ -22,8 +22,7 @@
         "drupal/core-recommended": "^10.3",
         "drupal/dotenv": "^1.2",
         "drush/drush": "^12.5",
-        "oomphinc/composer-installers-extender": "^2.0",
-        "specbee/storm": "dev-main"
+        "oomphinc/composer-installers-extender": "^2.0"
     },
     "require-dev": {
         "specbee/drupal-quality-checker": "^1.3"
@@ -39,10 +38,6 @@
         "assets": {
             "type": "composer",
             "url": "https://asset-packagist.org"
-        },
-        "drupal-recipe": {
-            "type": "vcs",
-            "url": "https://github.com/SpecbeeLabs/storm_cms.git"
         }
     },
     "minimum-stability": "dev",
